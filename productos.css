@@ -46,6 +46,18 @@ nav a {
     border-radius: 10px;
 }
 
+.productos li:hover {
+    border-color: #C78C19;
+}
+
+.productos li:hover h2 {
+    font-size: 33px;
+}
+
+.productos li:active {
+    border-color: #088C19;
+}
+
 .productos h2 {
     font-size: 30px;
     font-weight: bold;
@@ -59,4 +71,9 @@ nav a {
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
 }
