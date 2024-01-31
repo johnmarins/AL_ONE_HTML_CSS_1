@@ -1,3 +1,7 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 header {
     background: #BBBBBB;
     padding: 20px 0;
@@ -76,4 +80,16 @@ nav a {
 nav a:hover {
     color: #C78C19;
     text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background: url(./img/bg.jpg);
+    padding: 40px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
 }
